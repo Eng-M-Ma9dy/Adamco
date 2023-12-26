@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Eng: Mohamed Magdy Mettwally">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Portfolio Of Mohamed Magdy, Provide All Services Related by Web Developing and Technical Support">
+        <meta name="keywords" content="Mohamed Magdy Portfolio Services Front-End HTML HTML5 CSS CSS3 SCSS Bootstrap jQuery JavaScript JS TypeScript TS Angular Angular2 Back-End Node.JS MongoDB Mongoose Rest APIs Socket.io SQL DB Sequelize IT Technical-Support Cisco Network Router Switch AccessPoint Microsoft Software Windows System Virtualization VMware Hikvision Cameras ZKTeco Fingerprint Troubleshooting">
+
+        <title>ADAMCO</title>
+        <meta property="og:image" content="./src/Images/Logo-MM-Cover.jpg">
+        <link rel="website icon" type="PNG" href="./src/Images/dsfsdfgf12.png">
+                
+        <!-- Offline Bootstrap CSS : -->
+        <link href="CSS/bootstrap.min.css" rel="stylesheet"/>
+
+        <!-- FontAwesome CSS : -->
+        <link href="CSS/all.min.css" rel="stylesheet"/>
+        
+        <!-- Font Abril Fatface : -->
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&family=Noto+Serif:ital,wght@1,600&display=swap" rel="stylesheet">
+                
+        <!-- My Style CSS : -->
+        <link href="CSS/index.css" rel="stylesheet"/>
+
+    </head>
+
+    <body>
+
+        <!---------------------------------------------------------------------------------------------------------------------------->
+        <!---------------------------------------------------------------------------------------------------------------------------->
+        <!-- Loader -->
+        <!------------>
+
+        <div id="myLoading">
+
+            <!---------------------------------------------------------------->
+
+            <div id="loadingDiv" class="d-flex justify-content-center align-items-center">
+                <div id="loaderDiv" class="loader--style6" title="5">
+                    <svg id="loaderSize" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="30px"
+                        viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+                        <rect x="0" y="13" width="4" height="5" fill="blue">
+                            <animate attributeName="height" attributeType="XML" values="5;21;5" begin="0s" dur="0.6s"
+                                repeatCount="indefinite" />
+                            <animate attributeName="y" attributeType="XML" values="13; 5; 13" begin="0s" dur="0.6s"
+                                repeatCount="indefinite" />
+                        </rect>
+                        <rect x="10" y="13" width="4" height="5" fill="white">
+                            <animate attributeName="height" attributeType="XML" values="5;21;5" begin="0.15s" dur="0.6s"
+                                repeatCount="indefinite" />
+                            <animate attributeName="y" attributeType="XML" values="13; 5; 13" begin="0.15s" dur="0.6s"
+                                repeatCount="indefinite" />
+                        </rect>
+                        <rect x="20" y="13" width="4" height="5" fill="blue">
+                            <animate attributeName="height" attributeType="XML" values="5;21;5" begin="0.3s" dur="0.6s"
+                                repeatCount="indefinite" />
+                            <animate attributeName="y" attributeType="XML" values="13; 5; 13" begin="0.3s" dur="0.6s"
+                                repeatCount="indefinite" />
+                        </rect>
+                    </svg>
+                </div>
+            </div>
+
+            <!---------------------------------------------------------------->
+
+        </div>
+
+        <!---------------------------------------------------------------------------------------------------------------------------->
+        <!----------------------------------------------------------------------------------------------------------------------------> 
+        <!-- Navbar -->
+        <!------------>
+
+        <nav class="navbar fixed-top navbar-expand-lg py-0 bg-black">
+
+            <div id="myNavbar" class=" container-fluid py-2">
+
+                <label for="Navbar_BTN" class="Pointer navbar-brand  text-light fs-1 fw-bolder d-lg-none">MEGA</label>
+                
+                <button id="Navbar_BTN" class="navbar-toggler"
+                    type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false"
+                    onclick="changeBTNIcon()">
+
+                    <i id="NavbarBTNOpenClose" class="fa-solid fa-bars text-white fs-3"></i>
+                    
+                </button>
+
+                <div id="navbarNavDropdown" class="collapse navbar-collapse">
+
+                    <ul class="navbar-nav ms-auto mx-lg-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#home">Home</a>
+                        </li>
+
+                        <!-- <li class="nav-item">
+                            <a class="nav-link text-white" href="#skills">Skills</a>
+                        </li> -->
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#about">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#services">Services</a>
+                        </li>
+
+                        <!-- <li class="nav-item">
+                            <a class="nav-link text-white" href="#practical">Portfolio</a>
+                        </li> -->
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contact">Contact</a>
+                        </li>
+
+                        
+
+                    </ul>
+
+                </div>
+            
+            </div>
+        
+        </nav>
+        
+        <!---------------------------------------------------------------------------------------------------------------------------->
+        <!----------------------------------------------------------------------------------------------------------------------------> 
+        <!-- Home -->
+        <!---------->
+
+        <header id="home" class="min-vh-100  mb-1 active overflow-hidden">
+            
+            <div id="homeBG" class="min-vh-100 py-5 d-flex flex-column justify-content-center align-items-start">
+                
+                    <div class="ms-3 mb-3">
+
+                        <h1 style="font-family: 'Noto Serif', serif;" class="text-light fw-bolder">Medical Spirit Of</h1>
+
+                        <div class="d-flex justify-content-start align-items-center">
+                            <img src="./src/Images/dsfsdfgf12.png" style="width: 80px;" class="me-3" alt="">
+                            <h1 style="font-size: 75px; font-family: 'Noto Serif', serif;" class="text-light fw-bolder mb-0">Africa</h1>
+                        </div>
+
+                    </div>
+
+                    <div class="ms-3 mt-3">
+
+                        <div class="d-flex justify-content-start">
+        
+                            <div class="rotating-text">
+                                        
+                                <p>
+                                    <span class="word w-1">    Adamco&#160;Pharm       </span>
+                                    <span class="word w-2">     Egy&#160;Nile&#160;Pharm        </span>
+                                    <span class="word w-3">     Egypt&#160;Niger&#160;Pharm      </span>
+                                    <span class="word w-4">     Egy&#160;Nile&#160;Burkina      </span>
+                                </p>
+                        
+                            </div>
+        
+                        </div>
+        
+                        <div class="text-light mt-3 d-flex justify-content-start">
+                
+                            <button onclick="openLink('www.linkedin.com/in/eng-m-ma9dy/')" class="SM-BTN-icon LinkedIn rounded-circle me-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </button>
+        
+                            <button onclick="openLink('github.com/Eng-M-Ma9dy')" class="SM-BTN-icon GitHub rounded-circle mx-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-github"></i>
+                            </button>
+        
+                            <button onclick="openLink('www.facebook.com/eng.m.ma9dy/')" class="SM-BTN-icon Facebook rounded-circle mx-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-facebook"></i>
+                            </button>
+                
+                            <button onclick="openLink('www.instagram.com/eng.m.ma9dy/')" class="SM-BTN-icon Instagram rounded-circle ms-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-instagram"></i>
+                            </button>
+                
+                        </div>
+
+                    </div>
+                            
+            </div>
+        
+        </header>
+        
+        <!---------------------------------------------------------------------------------------------------------------------------->
+        <!----------------------------------------------------------------------------------------------------------------------------> 
+        <!-- Skills -->
+        <!------------>
+
+        <!-- <main id="skills" class=" bg-black text-white mb-1">
+        
+            <div id="skillsBG" class="py-5">
+
+                <div class="container py-5">
+        
+                    <div class="row d-flex flex-wrap justify-content-center align-items-center">
+    
+                        <div class="col-lg-4 mb-5 mb-lg-3 d-flex justify-content-center align-items-center">
+                            
+                            <div id="skills_IMG" style="width: 85%;" class="skills_myLogo rounded-3 border border-5 border-info position-relative">
+
+                                <div style="position: relative; top: 20px; left: 20px;" class="rounded-3 w-100 border border-5 border-info overflow-hidden">
+                                    <img src="src/Images/Magdy.jpg" class="w-100" alt="">
+                                </div>                                
+
+                                <div id="skills_IMG-Fame" style="position: absolute; top: 20px; left: 20px;" class="rounded-3 w-100 border border-5 border-info h-100 d-flex justify-content-center align-items-end">
+                                    <h1 class="fw-bolder text-center text-info text-bg-dark w-100 mb-0">MOHAMED<br>MAGDY</h1>
+                                </div>
+
+                            </div>
+                        
+                        </div>
+    
+                        <div class="col-lg-7 offset-lg-1 mt-5 mt-lg-3">
+    
+                            <div class="text-start">
+    
+                                <h2 class="fw-bolder fs-1">My Skills...</h2>
+    
+                                <p class="text-info fw-bold">TECHNICAL SUPPORT / WEB DEVELOPER</p>
+    
+                                <p class="fs-5">I Started New Career in Programming field Via take Course at Route Academy continued for a year from explanation and practical application in the field Front-End, Back-End and I have more than 3 years from experience in IT and technical support, and I Ready to Learning Gain New Skills Continuously in programming Field, by working on interesting, and challenging projects in a collaborative work environment to find solutions, and Deal with New Technology and updates Continuous, Through Research, Courses and Practical Life</p>
+            
+                                <div>
+    
+                                    <div class="mb-4">
+    
+                                        <label id="labelOfBTNFrontEndSkillsSlide" for="btnFrontEndSkillsSlideDown" class="Pointer w-100 rounded-4 p-2 bg-black text-white d-flex justify-content-between align-items-center border border-2">
+                                            
+                                            <p class="fs-4 m-0 text-info">Front End Skills</p>
+                                            
+                                            <button id="btnFrontEndSkillsSlideDown"   class="btn btn-outline-light rounded-circle border border-3 text-info">
+                                                
+                                                <i class="fa-solid fa-angles-down"></i>
+                                            
+                                            </button>
+
+                                            <button id="btnUpFrontEndSkillsSlideUp"   class="btn btn-outline-light rounded-circle border border-3 text-info d-none">
+                                            
+                                                <i class="fa-solid fa-angles-up"></i>
+                                            
+                                            </button>
+                                        
+                                        </label>
+        
+                                        <div id="FrontEndSkillsSlide">
+
+                                            <div id="FrontEndSkillsSlide-content">
+
+                                                <ul>
+                                                    <li>HTML / HTML5</li>
+                                                    <li>CSS3 / SCSS</li>
+                                                    <li>JS / jQuery</li>
+                                                    <li>TypeScript</li>
+                                                    <li>Bootstrap</li>
+                                                    <li>Angular2+</li>
+                                                </ul>
+    
+                                                <img style="width: 130px; margin-top: 15px; margin-right: 16px" src="./src/Images/ICON-Angular.png" alt="">
+
+                                            </div>
+                                            
+                                        </div>
+    
+                                    </div>
+                                    
+    
+    
+                                    <div class="mb-4">
+    
+                                        <label id="labelOfBTNBackEndSkillsSlide" for="btnBackEndSkillsSlideDown" class="Pointer w-100 rounded-4 p-2 bg-black text-white d-flex justify-content-between align-items-center border border-2">
+                                            
+                                            <p class="fs-4 m-0 text-info">Back End Skills</p>
+                                            
+                                            <button id="btnBackEndSkillsSlideDown"   class="btn btn-outline-light rounded-circle border border-3 text-info">
+                                                
+                                                <i class="fa-solid fa-angles-down"></i>
+                                            
+                                            </button>
+                                        
+                                            <button id="btnUpBackEndSkillsSlideUp"   class="btn btn-outline-light rounded-circle border border-3 text-info d-none">
+                                            
+                                                <i class="fa-solid fa-angles-up"></i>
+                                            
+                                            </button>
+                                        
+                                        </label>
+    
+                                        <div id="BackEndSkillsSlide">
+
+                                            <div id="BackEndSkillsSlide-content">
+
+                                                <ul>
+                                                    <li>Node.JS</li>
+                                                    <li>MongoDB</li>
+                                                    <li>Mongoose</li>
+                                                    <li>Rest APIs</li>
+                                                    <li>Socket.io</li>
+                                                    <li>Deal With:</li>
+                                                    <ul style="padding-top: 5px;">
+                                                        <li>EJS</li>
+                                                        <li>GraphQL</li>
+                                                        <li>SQL - DB</li>
+                                                        <li>Sequelize</li>
+                                                    </ul>
+                                                </ul>
+    
+                                                <img style="width: 130px; margin-top: 15px; margin-right: 16px;" src="./src/Images/ICON-NodeJS.png" alt="">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="mb-4">
+    
+                                        <label id="labelOfBTNITSkillsSlide" for="btnITSkillsSlideDown" class="Pointer w-100 rounded-4 p-2 bg-black text-white d-flex justify-content-between align-items-center border border-2">
+                                            
+                                            <p class="fs-4 m-0 text-info">Technical Support</p>
+                                            
+                                            <button id="btnITSkillsSlideDown"   class="btn btn-outline-light rounded-circle border border-3 text-info">
+                                                
+                                                <i class="fa-solid fa-angles-down"></i>
+                                            
+                                            </button>
+                                        
+                                            <button id="btnUpITSkillsSlideUp"   class="btn btn-outline-light rounded-circle border border-3 text-info d-none">
+                                               
+                                                <i class="fa-solid fa-angles-up"></i>
+                                            
+                                            </button>
+                                        
+                                        </label>
+    
+                                        <div id="ITSkillsSlide">
+
+                                            <div id="ITSkillsSlide-content">
+
+                                                <ul>
+
+                                                    <li>Network Engineer</li>
+                                                    <li>System Admin</li>
+                                                    <li>Software Setup</li>
+                                                    <li>Windows Setup</li>
+                                                    <li>Sharing Files</li>
+                                                    <li>Backup HD</li>
+                                                    <li>Troubleshoot</li>
+                                                    <li>Rack Handling</li>
+
+                                                    <li class="mt-3">Deal With:</li>
+                                                    <ul class="pt-1">
+                                                        <li>VMware</li>
+                                                        <li>Hyper-V</li>
+                                                    </ul>
+    
+                                                    <li class="mt-3">Configuration:</li>
+                                                    <ul class="pt-1">
+                                                        <li>Router</li>
+                                                        <li>SW / AP</li>
+                                                        <li>DVR / NVR</li>
+                                                        <li>Fingerprint</li>
+
+                                                    </ul>
+
+                                                </ul>
+    
+                                                <div id="ITSkillsSlide-IMG">
+
+                                                    <a href="https://cp.certmetrics.com/cisco/en/public/verify/credential/6fd5j6vmscfqqp90" style="margin-bottom: 20px;" target="_blank"><img style="width: 130px;" src="./src/Images/ICON-Cisco.png" alt=""></a>
+                                                    <img style="width: 130px; margin: 20px 0;" src="./src/Images/ICON-Microsoft.png" alt="">
+                                                    <img style="width: 130px; margin: 20px 0;" src="./src/Images/ICON-VMware.png" alt="">
+                                                    <img style="width: 130px; margin: 20px 0;" src="./src/Images/ICON-Hikvision.png" alt="">
+                                                    <img style="width: 130px; margin-top: 20pX" src="./src/Images/ICON-ZKTeco.png" alt="">
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                </div>
+    
+                                <div class="border border-3 border-info pt-3 mb-4 border-start-0 border-end-0 border-bottom-0">
+                                    
+                                    <button onclick="openLink('drive.google.com/file/d/16I5H2Qm_fMwQELPSEKGjsoRsAn3ey6N4/view?usp=sharing')" class="fw-bold p-3 me-1 btn btn-info">           Download CV </button>
+                                    
+                                    <button id="btnContactInfo"    class="fw-bold p-3 ms-1 btn btn-outline-light "> Contact Me  </button>
+                                
+                                </div>
+
+                                <div id="infoDiv">    
+
+                                    <div class="mb-4 d-flex justify-content-between align-items-center">    
+                    
+                                        <h5 class="text-info mb-0">Contact Info :</h5>    
+                    
+                                        <button id="btnCloseContactInfo" class="bg-transparent border-0 fs-3 text-info"><i class="fa-regular fa-circle-xmark"></i></button>    
+                    
+                                    </div> 
+
+                                    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+
+                                        <div class="d-flex flex-column justify-content-evenly align-items-start">
+                        
+                                            <p class="text-info mb-3">Name : <span class="text-white ms-2">Mohamed Magdy</span></p>    
+                                            
+                                            <p class="text-info mb-3">Birthday : <span class="text-white ms-2">21 / November / 1996</span></p>    
+                                            
+                                            <div class="d-flex justify-content-start align-items-center mb-3">    
+                            
+                                                <p class="text-info mb-0">Phone : </p>    
+                            
+                                                <a style="text-decoration: none;" href="tel:+201140155633" class="bg-transparent text-white ms-3"><i class="fa-solid fa-phone fs-5"></i></a>    
+                            
+                                                <button class="btn border-0 text-white fs-5 p-0 ms-3 mb-1" onclick="openLink('wa.me/+201140155633')"><i class="fa-brands fa-whatsapp fs-4"></i></button>    
+                            
+                                                <p class="text-white mb-1 ms-2 fs-5">+201140155633</p>    
+                            
+                                            </div>
+        
+                                            <div class="d-flex justify-content-start align-items-center mb-3">    
+                            
+                                                <p class="text-info mb-0">Phone : </p>    
+                            
+                                                <a style="text-decoration: none;" href="tel:+201285880488" class="bg-transparent text-white ms-3"><i class="fa-solid fa-phone fs-5"></i></a>    
+                            
+                                                <button class="btn border-0 text-white fs-5 p-0 ms-3 mb-1" onclick="openLink('wa.me/+201285880488')"><i class="fa-brands fa-whatsapp fs-4"></i></button>    
+                            
+                                                <p class="text-white mb-1 ms-2 fs-5">+201285880488</p>    
+                            
+                                            </div>
+
+                                            <div class="d-flex justify-content-start align-items-center">    
+                            
+                                                <p class="text-info mb-0">Gmail : </p>    
+                                                
+                                                <a style="text-decoration: none;" href="mailto:Eng.M.Ezzeldeen@gmail.com" class="bg-transparent text-white ms-3"><i class="fa-regular fa-envelope fs-4"></i></a>    
+                            
+                                                <p class="text-white mb-1 mx-2">Eng.M.Ezzeldeen@gmail.com</p>    
+                            
+                                            </div> 
+    
+                                        </div>
+
+                                        <div class="mb-md-4">
+
+                                            <img src="./src/Images/MyContactInfo.png" alt="Contact-Info" style="width: 200px; height: 200px;" class="my-4 my-xl-0 p-3 rounded-4 border border-5 border-info">
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main> -->
+        
+        <!---------------------------------------------------------------------------------------------------------------------------->
+        <!----------------------------------------------------------------------------------------------------------------------------> 
+        <!-- About -->
+        <!--------------->  
+        
+        <article id="about" class="mb-1">
+
+            <div class="py-5">
+
+                <div class="container mt-5">
+
+                    <h2 class="about_heder mb-0">About Us...</h2>
+
+                </div>
+            
+                <div id="about_Programming" class="py-3">
+
+                    <div class="container py-3">
+
+                        <div class="row d-flex justify-content-center align-items-center">
+    
+                            <div class="col-lg-6">
+    
+                                <div id="programming_info">
+
+                                    <p class="fs-6">
+                                        <span class="fw-bold">In 2008 :</span> Dr Ahmed El Bassatiny started his business from Africa and faced many challenges because of its beliefs that African countries are the most countries in need of health and pharmaceutical development and then the first Egyptian company was established on the land of West Africa ENP.
+                                    </p>
+
+                                    <p class="fw-bold mt-5 mb-1">Egy Nile Pharm</p>
+                                        
+                                    <p>Is a subsidiary company located in Niamey Niger that has well established business in Niger since 2008 through its scientific office in Niamey Niger where it holds around 40% of pharmaceutical and consumables either in private or tender business ENP is well established company in the west Africa market and has strong pharmaceutical products portfolio which is add-value to our group.</p>
+                               
+                                </div>
+                                
+                            </div>
+        
+                            <div class="col-lg-6 my-4 my-lg-0 text-center">
+
+                                <img src="./src/Images/dsfsdfgf08.jpg" alt="Programming Photo" class="w-75 rounded-4">
+
+                            </div>
+        
+                        </div>
+    
+                    </div>
+
+                </div>
+
+                <div id="about_IT" class="py-3">
+
+                    <div class="container py-3">
+
+                        <div class="row my-4 d-flex flex-row-reverse justify-content-center align-items-center">
+    
+                            <div class="col-lg-6">
+    
+                                <div class="it_info">
+
+                                    <p class="fs-6">
+                                        <span class="fw-bold">In 2017 :</span> With the continuous development and the expansion of our business, Adamco Pharm was established as a holding company that manages all the company’s business.
+                                    </p>
+
+                                    <p class="fw-bold mt-5 mb-1">Adamco Pharm</p>
+                                        
+                                    <p>Is a holding company based in Cairo-Egypt that is responsible to manage international business through searching for new market opportunities where it can expand the volume of its business.</p>
+
+
+                                </div>
+                                
+                            </div>
+        
+                            <div class="col-lg-6 my-4 my-lg-0 text-center">
+
+                                <img src="./src/Images/dsfsdfgf09.jpg" alt="IT Photo" class="w-75 rounded-4">
+
+                            </div>
+        
+                        </div>
+    
+                    </div>
+
+                </div>
+                
+                <div id="about_Programming2" class="py-3">
+
+                    <div class="container py-3">
+
+                        <div class="row d-flex justify-content-center align-items-center">
+    
+                            <div class="col-lg-6">
+    
+                                <div id="programming_info">
+
+                                    <p class="fs-6">
+                                        <span class="fw-bold">In 2018 :</span> Based on the success and the trust earned by ENP, we totally acquired Egypt Niger Pharm to expand our business.
+                                    </p>
+
+                                    <p class="fw-bold mt-5 mb-1">Egypt Niger Pharm</p>
+                                        
+                                    <p>Is a distribution pharmaceutical company and another subsidiary company which we have acquired it totally (100% of its stocks) in 2018.</p>
+                               
+                                </div>
+                                
+                            </div>
+        
+                            <div class="col-lg-6 my-4 my-lg-0 text-center">
+
+                                <img src="./src/Images/dsfsdfgf10.jpg" alt="Programming Photo" class="w-75 rounded-4">
+
+                            </div>
+        
+                        </div>
+    
+                    </div>
+
+                </div>
+
+                <div id="about_IT2" class="py-3">
+
+                    <div class="container py-3">
+
+                        <div class="row my-4 d-flex flex-row-reverse justify-content-center align-items-center">
+    
+                            <div class="col-lg-6">
+    
+                                <div class="it_info">
+
+                                    <p class="fs-6">
+                                        <span class="fw-bold">In 2020 :</span> A new headquarters for the company was opened in Burkina Faso in order to realize her future plans.
+                                    </p>
+
+                                    <p class="fw-bold mt-5 mb-1">ENP Burkina</p>
+                                        
+                                    <p>Is the most recent subsidiary company located in Burkina Faso, that has established since 2020 and started to promote some products of some of our partners.</p>
+
+
+                                </div>
+                                
+                            </div>
+        
+                            <div class="col-lg-6 my-4 my-lg-0 text-center">
+
+                                <img src="./src/Images/dsfsdfgf11.jpg" alt="IT Photo" class="w-75 rounded-4">
+
+                            </div>
+        
+                        </div>
+    
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+        <!---------------------------------------------------------------------------------------------------------------------------->
+        <!----------------------------------------------------------------------------------------------------------------------------> 
+        <!-- Services -->
+        <!--------------> 
+
+        <!-- <section id="services" class="mb-1 bg-dark">
+
+            <div class="py-5">
+
+                <div class="container my-5">
+
+                    <h2 class="services_heder text-center text-white">Services.</h2>
+                    
+                </div>
+    
+                <div class="container">
+
+                    <div class="row row-cols-1 row-cols-lg-3 g-4">
+
+                        <div class="col mb-5 mb-md-0">
+
+                            <div class="card bg-dark border-white border-0">
+
+                                <img src="./src/Images/services_card1.jpg" class="card-img-top" alt="...">
+                                
+                                <div class="card-body">
+
+                                    <h4 class="card-title text-primary pb-3 mb-3 border-bottom border-2 border-primary"><i class="fa-solid fa-money-bill-trend-up me-2"></i> Internet Website.</h4>
+                                    
+                                    <p class="card-text text-white">Create a Responsive Website for Computer and Smartphones and Customize it According to your Type of Work and Services to Ease your Clients' Access to You.</p>
+                                
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col mb-5 mb-md-0">
+
+                            <div class="card bg-dark border-white border-0">
+
+                                <img src="./src/Images/services_card2.jpg" class="card-img-top" alt="...">
+                              
+                                <div class="card-body">
+
+                                    <h4 class="card-title text-primary pb-3 mb-3 border-bottom border-2 border-primary"><i class="fa-solid fa-list-check me-2"></i> Web Application.</h4>
+                                    
+                                    <p class="card-text text-white">Build your own personal online marketplace or web system application for your organization and link it to the database to view and manage your system from anywhere.</p>
+                              
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col mb-5 mb-md-0">
+
+                            <div class="card bg-dark border-white border-0">
+                                
+                                <img src="./src/Images/services_card3.jpg" class="card-img-top" alt="...">
+
+                                <div class="card-body">
+                                
+                                    <h4 class="card-title text-primary pb-3 mb-3 border-bottom border-2 border-primary"><i class="fa-solid fa-screwdriver-wrench me-2"></i> Technical Support.</h4>
+                               
+                                    <p class="card-text text-white">Provide all Technical Support Services, including confirmation devices like Router / SW / AP / DVR / NVR / Fingerprint / Win-Server, Windows and software installation, file and printer sharing, HD Backup and Recovery and troubleshooting.</p>
+                              
+                                </div>
+
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </section> -->
+
+        <!---------------------------------------------------------------------------------------------------------------------------->
+        <!----------------------------------------------------------------------------------------------------------------------------> 
+        <!-- My Works -->
+        <!-------------->
+
+ 
+
+        <!---------------------------------------------------------------------------------------------------------------------------->
+        <!----------------------------------------------------------------------------------------------------------------------------> 
+        <!-- Footer -->
+        <!------------>
+
+        <footer id="contact" class="py-5 bg-black text-white">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-6 col-xl-3 my-3 my-lg-0">
+
+                        <h4 class="mb-4 pb-4 border-bottom">Author :</h4>
+
+                        <h1>A D A M C O</h1>
+                        
+                        <h1>P H A R M</h1>
+    
+                    </div>
+    
+                    <div class="col-md-6 col-xl-3 my-3 my-lg-0">
+    
+                        <h4 class="mb-4 pb-4 border-bottom">Phone :</h4>
+
+
+                        <div class="d-flex justify-content-start align-items-center mb-3">    
+                                    
+                            <a style="text-decoration: none;" href="tel:+238211356" class="bg-transparent text-white fw-bold">Adamco Pharm: +2 38211356</a>    
+                        
+                        </div>
+
+                        <div class="d-flex justify-content-start align-items-center mb-3">    
+                                    
+                            <a style="text-decoration: none;" href="tel:+22720752075" class="bg-transparent text-white fw-bold">Egy Nile Pharm: +227 20752075</a>    
+                        
+                        </div>
+
+                        <div class="d-flex justify-content-start align-items-center mb-3">    
+                                    
+                            <a style="text-decoration: none;" href="tel:+22654935541" class="bg-transparent text-white fw-bold">Egy Nile Burkina: +226 54935541</a>    
+                        
+                        </div>
+
+                        <div class="d-flex justify-content-start align-items-center mb-3">    
+                                    
+                            <a style="text-decoration: none;" href="tel:+22720352356" class="bg-transparent text-white fw-bold">Egypt Niger Pharm: +227 20352356</a>    
+                        
+                        </div>
+                
+                        <!-- 
+                        <div class="d-flex justify-content-start my-3">
+        
+                            <button onclick="openLink('github.com/Eng-M-Ma9dy')" class="SM-BTN-icon GitHub me-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-github"></i>
+                            </button>
+                
+                            <button onclick="openLink('www.linkedin.com/in/eng-m-ma9dy/')" class="SM-BTN-icon LinkedIn  mx-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </button>
+        
+                            <button onclick="openLink('www.facebook.com/eng.m.ma9dy/')" class="SM-BTN-icon Facebook  mx-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-facebook"></i>
+                            </button>
+                
+                            <button onclick="openLink('www.instagram.com/eng.m.ma9dy/')" class="SM-BTN-icon Instagram ms-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-instagram"></i>
+                            </button>
+                
+                        </div> 
+                        -->
+                        
+                    </div>
+
+                    <div class="col-md-6 col-xl-3 my-3 my-lg-0">
+    
+                        <h4 class="mb-4 pb-4 border-bottom">Accounts :</h4>
+
+                        <p class="fw-bold mb-2"><a href="mailto:info@admcopharm.com" class="a_None text-white">info@admcopharm.com</a></p>  
+                        <p class="fw-bold mb-2"><a href="mailto:info@egynilepharm.com" class="a_None text-white">info@egynilepharm.com</a></p>  
+                        <p class="fw-bold mb-2"><a href="mailto:egyptnigerpharm@yahoo.com" class="a_None text-white">egyptnigerpharm@yahoo.com</a></p>  
+                        
+                        <div class="d-flex justify-content-start my-3">
+        
+                            <button onclick="openLink('github.com/Eng-M-Ma9dy')" class="SM-BTN-icon GitHub me-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-github"></i>
+                            </button>
+                
+                            <button onclick="openLink('www.linkedin.com/in/eng-m-ma9dy/')" class="SM-BTN-icon LinkedIn  mx-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </button>
+        
+                            <button onclick="openLink('www.facebook.com/eng.m.ma9dy/')" class="SM-BTN-icon Facebook  mx-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-facebook"></i>
+                            </button>
+                
+                            <button onclick="openLink('www.instagram.com/eng.m.ma9dy/')" class="SM-BTN-icon Instagram ms-2 fs-3 bg-light d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-instagram"></i>
+                            </button>
+                
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6 col-xl-3 mt-3 mt-lg-0">
+                        
+                        <h4 class="mb-4 pb-4 border-bottom">Website :</h4>
+
+                        <div class="text-center">
+                            <a href="#home" class="bg-transparent text-white border-0 p-0"><img src="src/Images/dsfsdfgf12.png" class="footer_logo w-75" alt=""></a>
+                        </div>
+            
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+        <!---------------------------------------------------------------------------------------------------------------------------->
+        <!----------------------------------------------------------------------------------------------------------------------------> 
+        <!-- JS Links -->
+        <!-------------->
+        
+        <!-- Offline Bootstrap js : -->
+        <script src="JS/bootstrap.bundle.min.js"></script>
+
+        <!-- jQuery JS : -->
+        <script src="JS/jquery-3.6.3.min.js"></script>
+
+        <!-- My JS Sheet : -->
+        <script src="JS/index.js"></script>
+    
+    </body>
+</html>
